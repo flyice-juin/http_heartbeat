@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Device Heartbeat Setup",
+        "description": "Set up device heartbeat monitoring. The integration will verify the connection before completing setup.",
+        "data": {
+          "name": "Name",
+          "target_url": "Target URL (e.g., http://example.com)",
+          "interval": "Heartbeat Interval (seconds, 10-3600)"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Invalid URL format. Must start with http:// or https://",
+      "cannot_connect": "Failed to connect. Please verify the URL and ensure the server returns a 200 status code.",
+      "invalid_auth": "Authentication failed",
+      "invalid_interval": "Invalid interval. Must be between 10-3600 seconds"
+    }
+  }
+}

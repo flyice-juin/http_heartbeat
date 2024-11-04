@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "设备心跳设置",
+        "description": "设置设备心跳监控。集成将在完成设置前验证连接。",
+        "data": {
+          "name": "名称",
+          "target_url": "目标 URL（例如：http://example.com）",
+          "interval": "心跳间隔（秒，10-3600）"
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "URL 格式无效。必须以 http:// 或 https:// 开头",
+      "cannot_connect": "连接失败。请验证 URL 并确保服务器返回 200 状态码。",
+      "invalid_auth": "认证失败",
+      "invalid_interval": "心跳间隔无效。必须在 10-3600 秒之间"
+    }
+  }
+}
