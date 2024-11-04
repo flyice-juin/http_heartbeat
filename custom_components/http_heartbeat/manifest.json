@@ -4,8 +4,7 @@
   "version": "1.0.0",
   "documentation": "https://github.com/flyice-juin/http_heartbeat",
   "dependencies": [],
-  "codeowners": ["@yourusername"],
+  "codeowners": ["@flyice"],
   "requirements": ["aiohttp"],
-  "config_flow": true,
-  "iot_class": "cloud_polling"
+  "config_flow": true
 }
