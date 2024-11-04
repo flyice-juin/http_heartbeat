@@ -2,7 +2,7 @@
   "domain": "http_heartbeat",
   "name": "\u8bbe\u5907\u5fc3\u8df3",
   "version": "1.0.0",
-  "documentation": "https://github.com/yourusername/ha-http-heartbeat",
+  "documentation": "https://github.com/flyice-juin/http_heartbeat",
   "dependencies": [],
   "codeowners": ["@yourusername"],
   "requirements": ["aiohttp"],
